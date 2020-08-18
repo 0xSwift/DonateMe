@@ -1,17 +1,9 @@
-//
-//  DonateItemView.swift
-//  DonateMe
-//
-//  Created by Zach Eriksen on 8/15/20.
-//  Copyright © 2020 oneleif. All rights reserved.
-//
-
 import SwiftUI
 
 struct Donation: Hashable {
-    let name: String // Baseball Bat
-    let donator: String // Zach
-    let dateDonated: String // Sept 4th
+    let name: String
+    let donator: String
+    let dateDonated: String
 }
 
 struct DonateItemView: View {
